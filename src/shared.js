@@ -26,10 +26,10 @@ export function buildPostPath(post, overrideConfig) {
 	if (post.type) {
 		switch (post.type) {
 			case 'post':
-				pathSegments.push('posts');
+				// pathSegments.push('posts');
 				break;
 			case 'page':
-				pathSegments.push('pages');
+				// pathSegments.push('pages');
 				break;
 			default:
 				pathSegments.push('custom');
