@@ -29,7 +29,7 @@ export function buildPostPath(post, overrideConfig) {
 				// pathSegments.push('posts');
 				break;
 			case 'page':
-				// pathSegments.push('pages');
+				pathSegments.push('pages');
 				break;
 			default:
 				pathSegments.push('custom');
